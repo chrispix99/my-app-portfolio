@@ -14,13 +14,6 @@ import android.widget.Toast;
  */
 public class ProjectZeroActivityFragment extends Fragment implements View.OnClickListener {
 
-//    private CardView spotify;
-//    private CardView scores;
-//    private CardView library;
-//    private CardView buildit;
-//    private CardView xyz;
-//    private CardView capstone;
-
     public ProjectZeroActivityFragment() {
     }
 
@@ -36,13 +29,6 @@ public class ProjectZeroActivityFragment extends Fragment implements View.OnClic
         view.findViewById(R.id.xyz).setOnClickListener(this);
         view.findViewById(R.id.capstone).setOnClickListener(this);
 
-
-//        spotify = (CardView) view.findViewById(R.id.spotify);
-//        scores = (CardView) view.findViewById(R.id.scores);
-//        library = (CardView) view.findViewById(R.id.library);
-//        buildit = (CardView) view.findViewById(R.id.buildit);
-//        xyz = (CardView) view.findViewById(R.id.xyz);
-//        capstone = (CardView) view.findViewById(R.id.capstone);
         return view;
     }
 
